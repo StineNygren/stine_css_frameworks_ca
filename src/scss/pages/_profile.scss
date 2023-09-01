@@ -1,32 +1,56 @@
 
 .profile-img img{
-    border-radius: 100%;
     width: 5rem;
     height: 5rem;
     object-fit: cover;
 
 }
 
+.card{
+    &-section{
+        max-width: 600px;
 
+    }
+    &-img{
+        max-width: 600px;
+        overflow: hidden;
+        
+    }
+    &-img img{
+        height: auto;
+        max-width: 600px;
+        overflow: hidden;
 
-.card-section{
-    max-width: 600px;
+    }
+}
 
+.follower-img img{
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
 
 }
 
-.card-img {
 
-    max-width: 600px;
-    overflow: hidden;
-}
 
-.card-img img{
-    height: auto;
-    max-width: 600px;
-    overflow: hidden;
+// .card-section{
+//     max-width: 600px;
 
-}
+
+// }
+
+// .card-img {
+
+//     max-width: 600px;
+//     overflow: hidden;
+// }
+
+// .card-img img{
+//     height: auto;
+//     max-width: 600px;
+//     overflow: hidden;
+
+// }
 
 .navbar{
 

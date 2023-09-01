@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 /*!
  * Bootstrap  v5.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -74,7 +75,7 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-family: "Noto Sans", sans-serif;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -5680,7 +5681,7 @@ textarea.form-control-lg {
   z-index: var(--bs-tooltip-zindex);
   display: block;
   margin: var(--bs-tooltip-margin);
-  font-family: var(--bs-font-sans-serif);
+  font-family: "Noto Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5790,7 +5791,7 @@ textarea.form-control-lg {
   z-index: var(--bs-popover-zindex);
   display: block;
   max-width: var(--bs-popover-max-width);
-  font-family: var(--bs-font-sans-serif);
+  font-family: "Noto Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -11867,13 +11868,7 @@ textarea.form-control-lg {
   background: rgba(0, 0, 0, 0.76);
 }
 
-.sign-up-btn {
-  background: none;
-  border: none;
-  margin: 0;
-  padding: 0;
-}
-
+.sign-up-btn,
 .logg-in-btn {
   background: none;
   border: none;
@@ -11882,7 +11877,6 @@ textarea.form-control-lg {
 }
 
 .profile-img img {
-  border-radius: 100%;
   width: 5rem;
   height: 5rem;
   object-fit: cover;
@@ -11891,30 +11885,27 @@ textarea.form-control-lg {
 .card-section {
   max-width: 600px;
 }
-
 .card-img {
   max-width: 600px;
   overflow: hidden;
 }
-
 .card-img img {
   height: auto;
   max-width: 600px;
   overflow: hidden;
 }
 
+.follower-img img {
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+}
+
 .navbar {
   background: rgba(113, 164, 109, 0.45);
 }
 
-.search-input {
-  max-width: 400px;
-}
-
-.post-btn {
-  height: 37.6px;
-}
-
+.search-input,
 .post-input {
   max-width: 400px;
 }
