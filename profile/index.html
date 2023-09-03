@@ -55,9 +55,9 @@
           </div>
         </nav>
       </header>
-      <main class="d-md-flex justify-content-center">
-        <section class="col-md-4">
-          <div class="profile bg-white p-3 border m-5">
+      <main class="d-md-flex justify-content-center container px-0">
+        <section>
+          <div class="profile bg-white p-3 border m-3 m-md-5">
             <div class="profile-img m-2 text-center">
               <img
                 class="rounded-circle"
@@ -70,9 +70,9 @@
             >
               <h1 class="text-center">Bobby</h1>
               <div class="following text-center">
-                <button class="btn btn-primary">Follow</button>
+                <button class="btn btn-primary m-1">Follow</button>
                 <button
-                  class="btn btn-primary"
+                  class="btn btn-primary m-1"
                   data-bs-toggle="modal"
                   data-bs-target="#exampleModal"
                 >
@@ -113,9 +113,13 @@
 
           <!-- followers -->
 
-          <section class="follower-section d-none d-md-flex">
-            <div class="border p-3 m-5">
-              <h4 class="text-center">Followers</h4>
+          <section class="d-none d-md-flex">
+            <div class="follower-section border p-3 m-5">
+              <div class="d-flex justify-content-around">
+                <h4>Followers</h4>
+                <h4>21</h4>
+              </div>
+
               <!-- 
               follower profile -->
 

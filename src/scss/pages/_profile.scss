@@ -8,17 +8,17 @@
 
 .card{
     &-section{
-        max-width: 600px;
+        max-width: 500px;
 
     }
     &-img{
-        max-width: 600px;
+        max-width: 500px;
         overflow: hidden;
         
     }
     &-img img{
         height: auto;
-        max-width: 600px;
+        max-width: 500px;
         overflow: hidden;
 
     }
@@ -31,31 +31,11 @@
 
 }
 
-
-
-// .card-section{
-//     max-width: 600px;
-
-
-// }
-
-// .card-img {
-
-//     max-width: 600px;
-//     overflow: hidden;
-// }
-
-// .card-img img{
-//     height: auto;
-//     max-width: 600px;
-//     overflow: hidden;
-
-// }
-
-.navbar{
-
-    background: rgba(113, 164, 109, 0.45);;
+.profile, .follower-section{
+    min-width: 250px;
 }
+
+
 
 
 

@@ -11883,15 +11883,15 @@ textarea.form-control-lg {
 }
 
 .card-section {
-  max-width: 600px;
+  max-width: 500px;
 }
 .card-img {
-  max-width: 600px;
+  max-width: 500px;
   overflow: hidden;
 }
 .card-img img {
   height: auto;
-  max-width: 600px;
+  max-width: 500px;
   overflow: hidden;
 }
 
@@ -11901,13 +11901,17 @@ textarea.form-control-lg {
   object-fit: cover;
 }
 
-.navbar {
-  background: rgba(113, 164, 109, 0.45);
+.profile, .follower-section {
+  min-width: 250px;
 }
 
 .search-input,
 .post-input {
   max-width: 400px;
+}
+
+.navbar {
+  background: rgba(113, 164, 109, 0.45);
 }
 
 /*# sourceMappingURL=style.css.map */
