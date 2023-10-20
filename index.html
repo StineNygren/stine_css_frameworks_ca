@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Authentication</title>
+    <script defer src="./js/script.js"></script>
+    <link rel="stylesheet" href="./dist/css/style.css" />
+
+    <script
+      defer
+      src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+    ></script>
+  </head>
+  <body class="authentication-bg d-flex align-items-center">
+    <div
+      class="authentication-logg-in-box m-auto p-5 d-flex flex-column align-items-center"
+    >
+      <h1 class="text-center text-white">Log in</h1>
+      <form
+        action="./profile/index.html"
+        class="authentication-form d-flex flex-column align-items-center m-4"
+      >
+        <!-- Name input -->
+        <div class="form-outline mb-4">
+          <input
+            placeholder="Name:"
+            type="text"
+            required
+            id="form1Example1"
+            class="form-control"
+          />
+        </div>
+
+        <!-- Password input -->
+        <div class="form-outline mb-4">
+          <input
+            placeholder="Password:"
+            type="password"
+            required
+            minlength="8"
+            id="form1Example2"
+            class="form-control"
+          />
+        </div>
+
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+      <p class="text-white">
+        or <button class="sign-up-btn text-primary">Sign up</button>
+      </p>
+    </div>
+
+    <!-- Sign up -->
+
+    <div
+      class="d-none authentication-sign-up-box m-auto p-5 d-flex flex-column align-items-center"
+    >
+      <h1 class="text-center text-white">Sign up</h1>
+      <form
+        action="./profile/index.html"
+        class="authentication-form d-flex flex-column align-items-center m-4"
+      >
+        <!-- Name input -->
+        <div class="form-outline mb-4">
+          <input
+            placeholder="Name:"
+            type="text"
+            required
+            id="form1Example1"
+            class="form-control"
+          />
+        </div>
+
+        <!-- Password input -->
+        <div class="form-outline mb-4">
+          <input
+            placeholder="Password:"
+            type="password"
+            required
+            minlength="8"
+            id="form1Example2"
+            class="form-control"
+          />
+        </div>
+
+        <!-- Password input2 -->
+
+        <div class="form-outline mb-4">
+          <input
+            placeholder="Confirm password:"
+            type="password"
+            required
+            minlength="8"
+            id="form1Example2"
+            class="form-control"
+          />
+        </div>
+
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+      <p class="text-white">
+        or <button class="logg-in-btn text-primary">Log in</button>
+      </p>
+    </div>
+  </body>
+</html>

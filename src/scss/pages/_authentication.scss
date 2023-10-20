@@ -1,0 +1,33 @@
+.authentication {
+    &-bg {
+      background: url(../../img/sm_bg.png) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height: 100vh;
+
+    }
+    &-logg-in-box{
+        border-radius: 10px;
+background: rgba(0, 0, 0, 0.76);
+
+
+    }
+
+    &-sign-up-box{
+      border-radius: 10px;
+      background: rgba(0, 0, 0, 0.76);
+
+    }
+  }
+
+
+  .sign-up-btn,
+  .logg-in-btn{
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+
+  }
